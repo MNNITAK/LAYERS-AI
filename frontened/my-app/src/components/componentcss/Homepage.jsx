@@ -6,7 +6,7 @@ import { useAuth } from "../../authcontext/contextapi"; // Make sure to import u
 
 
 
-const GenerateStars = (count = 100) => {
+const generateStars = (count = 100) => {
   const stars = [];
   for (let i = 0; i < count; i++) {
     const style = {
