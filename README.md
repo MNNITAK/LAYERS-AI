@@ -5,7 +5,7 @@
 ---
 
 ## 🌐 Live Demo
-[Coming Soon...] <!-- Replace with your live site URL -->
+[https://layers-ai.vercel.app/] <!-- Replace with your live site URL -->
 
 ---
 
@@ -14,11 +14,10 @@
 
 - 🧠 AI Image Generation using Stability AI API
 - 🌌 Animated Loading Screen with cosmic effects
-- 🎨 3D Image Reveal with glowing gradients
 - 🔍 Fullscreen image viewing
 - ⬇️ One-click image download
 - 💬 Prompt input with instant feedback
-- 🖼️ Responsive & Aesthetic User Interface
+- 🖼️  Aesthetic User Interface
 
 ---
 
@@ -26,7 +25,7 @@
 
 ### 🔹 Frontend
 - **React.js**
-- **TailwindCSS + Custom CSS**
+- **Vanilla CSS**
 - **Framer Motion** (for animations)
 - **Axios**
 - **React Hooks** and `useContext`
@@ -40,5 +39,17 @@
 ---
 
 ## 📁 Folder Structure
+LAYERS-AI/
+├── client/ # React frontend
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Core pages (Prompt input, Results, etc.)
+│ ├── assets/ # Images, Icons, Styles
+│ └── App.js # Main app component
+│
+├── server/ # Node.js backend
+│ ├── routes/ # API route handlers
+│ ├── controllers/ # Business logic (AI call)
+│ ├── .env # Environment config
+│ └── server.js # Express server entry point
 
 
