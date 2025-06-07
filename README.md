@@ -38,18 +38,5 @@
 
 ---
 
-## 📁 Folder Structure
-LAYERS-AI/
-├── client/ # React frontend
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Core pages (Prompt input, Results, etc.)
-│ ├── assets/ # Images, Icons, Styles
-│ └── App.js # Main app component
-│
-├── server/ # Node.js backend
-│ ├── routes/ # API route handlers
-│ ├── controllers/ # Business logic (AI call)
-│ ├── .env # Environment config
-│ └── server.js # Express server entry point
 
 
