@@ -1,9 +1,8 @@
 import { Route, Routes, Navigate } from "react-router-dom";
 import React from "react";
-import { useAuth } from "./authcontext/contextapi";
-import Homepage from "./components/componentcss/Homepage.jsx";
-import LoadingPage from "./components/componentcss/Loadingpage.jsx";
-import ImageResultPage from "./components/componentcss/ImageResultPage.jsx";  
+import Homepage from "./components/componentcss/Homepage.jsx"
+import LoadingPage from "./components/componentcss/LoadingPage.jsx"
+import ImageResultPage from "./components/componentcss/ImageResultPage.jsx"
 
 
 
